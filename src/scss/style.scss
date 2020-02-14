@@ -1,0 +1,15 @@
+html {
+    box-sizing: border-box;
+}
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  th, td {
+    border: 1px solid #aaaaaa;
+  }
+}
