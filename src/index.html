@@ -4,28 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skate Shop</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
     <table id="user-table">
-    <thead>
-    <tr>
-        <th>Nazwa</th>
-        <th>Cena</th>
-        <th>Ilość</th>
-        <th>Usuń</th>
-    </tr>
-    </thead>
-    <tbody></tbody>
-</table>
+        <thead>
+        <tr>
+            <th>Nazwa</th>
+            <th>Cena</th>
+            <th>Ilość</th>
+            <th>Usuń</th>
+        </tr>
+        </thead>
+        <tbody></tbody>
+        </table>
 
-<div class="wrapper">
-    <form action="">
-        <input type="text" id="name" placeholder="Nazwa artykułu" name= "name" required>
-        <input type="text" id="price" placeholder="Cena artykułu" required>
-        <input type="number" id="count" placeholder="Ilość artykułów" required>
-    </form>
-    <button class="btn" id="send-item-button">Wyslij dane na serwer</button>
-</div>
+    <div class="wrapper">
+        <form action="">
+            <input type="text" id="name" placeholder="Nazwa artykułu" name= "name" required>
+            <input type="text" id="price" placeholder="Cena artykułu" required>
+            <input type="number" id="count" placeholder="Ilość artykułów" required>
+        </form>
+        <button class="btn" id="send-item-button">Wyslij dane na serwer</button>
+    </div>
 <script src="script.js"></script>
 </body>
 </html>
